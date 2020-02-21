@@ -22,9 +22,16 @@
         <label id="number-label">Numero: </label>
         <input type="number" name="" id="number" required min="4" max="15" placeholder="Introduce tu numero">
         <label>
-            <input type="radio" name="boton" value="indoor">Boton1 <!--Preguntar a gustavo porque los radio buttons no se desmarcan y si es necesario el "for"-->
-            <input type="radio" name="boton" value="indoor">Boton2 <!--Aunque tengo el atributo value escrito. me lo sigue marcando como si no estuviera-->
+            <input type="radio" name="boton1-boton2" value="indoor">Boton1 <!-- -->
+            <input type="radio" name="boton1-boton2" value="indoor">Boton2 <!--Aunque tengo el atributo value escrito. me lo sigue marcando como si no estuviera-->
         </label>
+        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 1</label>
+        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 2</label>
+        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 3</label>
+        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 4</label>
+        <input type="text" placeholder="Puesdes ecribir aqui">
+        <textarea name="mensaje" placeholder="Llena esta este campo" cols="40" rows="5"></textarea>
+        <button type="submit" id="submit">Enviar</button>
     </form>
     <script src="test.js"></script>
 </body>
