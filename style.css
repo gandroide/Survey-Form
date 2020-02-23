@@ -1,0 +1,33 @@
+html, body {
+    background-color: #CEDADA;
+    margin: 50px;
+}
+
+.userInfo {
+    font-family: 'Roboto';
+    margin-left: auto;
+}
+
+.emailRequest {
+    font-family: 'Roboto';
+    margin-left: auto;
+    align-self: right; /* aun no se pega al final */
+}
+
+.numberRequest {
+    font-family: 'Roboto';
+    margin-left: auto;
+}
+
+#survey-form {
+    padding: 10px;
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%; /*este es mi contenedor flexible*/
+    align-items: end;
+}
+
+#dropdown {
+    margin-left: auto;
+}

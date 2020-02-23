@@ -5,33 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">XXXXXXX</p>
+
+    <div class="titulo"> <!--cambiar los class y solo dejarlos que tengan mayor jerarquia -->
+        <h1 id="title">I Want To Tattoo</h1>
+        <p id="description">Tattoo Appointment</p>
+    </div>
+
     <form id="survey-form">
+
         <select id="dropdown">
-            <option value="opcion1"></option>
+            <option value="opcion1"></option> <!-- esto es un boton desplegable, hasta ahora sin informacion -->
             <option value="opcion2"></option>
         </select>
-        <label id="name-label">Nombre: </label>
-        <input type="text" name="" id="name" required placeholder="Introduce tu nombre">
-        <label id="email-label">email: </label>
-        <input type="email" name="" id="email" required placeholder="Introduce tu email"> <!---->
-        <label id="number-label">Numero: </label>
-        <input type="number" name="" id="number" required min="4" max="15" placeholder="Introduce tu numero">
+
+
+        <div class="userInfo">
+            <div class="namerequest">
+                <label id="name-label">Nombre: </label>
+                <input type="text" name="" id="name" required placeholder="Introduce tu nombre">
+            </div>
+            <div class="emailRequest">
+                <label id="email-label">email: </label>
+                <input type="email" name="" id="email" required placeholder="Introduce tu email"> <!---->
+            </div>
+            <div class="numberRequest">
+                <label id="number-label">Numero: </label>
+                <input type="number" name="" id="number" required min="4" max="15" placeholder="Introduce tu numero">
+            </div>
+        </div>
+
+
         <label>
             <input type="radio" name="boton1-boton2" value="indoor">Boton1 <!-- -->
             <input type="radio" name="boton1-boton2" value="indoor">Boton2 <!--Aunque tengo el atributo value escrito. me lo sigue marcando como si no estuviera-->
         </label>
+
         <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 1</label>
         <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 2</label>
         <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 3</label>
         <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 4</label>
         <input type="text" placeholder="Puesdes ecribir aqui">
+        
+        <div classs="campoTexto">
         <textarea name="mensaje" placeholder="Llena esta este campo" cols="40" rows="5"></textarea>
+        </div>
+
         <button type="submit" id="submit">Enviar</button>
+    
     </form>
     <script src="test.js"></script>
 </body>
