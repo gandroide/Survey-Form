@@ -31,3 +31,8 @@ html, body {
 #dropdown {
     margin-left: auto;
 }
+
+#botones {
+    display: flex;
+    align-items: end;
+}
