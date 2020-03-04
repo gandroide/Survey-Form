@@ -8,10 +8,27 @@ html, body {
     background-color: blue;
 }
 
+.namerequest {
+    display: flex;
+    font-family: 'Roboto';
+}
+.namerequest > div {
+    width: 25%;
+}
+.namerequest input {
+    width: 75%;
+}
 .emailRequest {
+    display: flex;
     font-family: 'Roboto';
     margin-left: auto;
     align-self: right; /* aun no se pega al final */
+}
+.emailRequest > div {
+    width: 25%;
+}
+.emailRequest > input { /*aun se puede hacer con los div :( */
+    width: 75%;
 }
 
 .numberRequest {
@@ -36,7 +53,8 @@ html, body {
 }
 
 #dropdown {
-
+    width: 20%;
+    align-self: flex-end;
 }
 
 #botones {
