@@ -17,45 +17,50 @@
 
     <form id="survey-form">
 
-        <select id="dropdown">
-            <option value="opcion1"></option> <!-- esto es un boton desplegable, hasta ahora sin informacion -->
-            <option value="opcion2"></option>
-        </select>
+        <div id="izquierda">
 
 
-        <div class="userInfo">
-            <div class="namerequest">
-                <label id="name-label">Nombre: </label>
-                <input type="text" name="" id="name" required placeholder="Introduce tu nombre">
-            </div>
-            <div class="emailRequest">
-                <label id="email-label">email: </label>
-                <input type="email" name="" id="email" required placeholder="Introduce tu email"> <!---->
-            </div>
-            <div class="numberRequest">
-                <label id="number-label">Numero: </label>
-                <input type="number" name="" id="number" required min="4" max="15" placeholder="Introduce tu numero">
-            </div>
         </div>
+        <div id="derecha">
+            <select id="dropdown">
+                <option value="opcion1"></option> <!-- esto es un boton desplegable, hasta ahora sin informacion -->
+                <option value="opcion2"></option>
+            </select>
 
 
-        <label id="botones">
-            <input type="radio" name="boton1-boton2" value="indoor">Boton1 <!-- -->
-            <input type="radio" name="boton1-boton2" value="indoor">Boton2 <!-- -->
-        </label>
+            <div class="userInfo">
+                <div class="namerequest">
+                    <label id="name-label">Nombre: </label>
+                    <input type="text" name="" id="name" required placeholder="Introduce tu nombre">
+                </div>
+                <div class="emailRequest">
+                    <label id="email-label">email: </label>
+                    <input type="email" name="" id="email" required placeholder="Introduce tu email"> <!---->
+                </div>
+                <div class="numberRequest">
+                    <label id="number-label">Numero: </label>
+                    <input type="number" name="" id="number" required min="4" max="15" placeholder="Introduce tu numero">
+                </div>
+            </div>
 
-        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 1</label>
-        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 2</label>
-        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 3</label>
-        <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 4</label>
-        <input type="text" placeholder="Puesdes ecribir aqui">
-        
-        <div classs="campoTexto">
-        <textarea name="mensaje" placeholder="Llena esta este campo" cols="40" rows="5"></textarea>
+
+            <label id="botones">
+                <input type="radio" name="boton1-boton2" value="indoor">Boton1 <!-- -->
+                <input type="radio" name="boton1-boton2" value="indoor">Boton2 <!-- -->
+            </label>
+
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 1</label>
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 2</label>
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 3</label>
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 4</label>
+            <input type="text" placeholder="Puesdes ecribir aqui">
+            
+            <div classs="campoTexto">
+            <textarea name="mensaje" placeholder="Llena esta este campo" cols="40" rows="5"></textarea>
+            </div>
+
+            <button type="submit" id="submit">Enviar</button>
         </div>
-
-        <button type="submit" id="submit">Enviar</button>
-    
     </form>
     <script src="test.js"></script>
 </body>
