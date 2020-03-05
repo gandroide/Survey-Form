@@ -18,48 +18,49 @@
     <form id="survey-form">
 
         <div id="izquierda">
-
-
+            <img id="image" src="mr_robot.jpg">
         </div>
         <div id="derecha">
-            <select id="dropdown">
-                <option value="opcion1"></option> <!-- esto es un boton desplegable, hasta ahora sin informacion -->
+            <select id="dropdown"><!-- esto es un boton desplegable, hasta ahora sin informacion -->
+                <option value="opcion1"></option> 
                 <option value="opcion2"></option>
             </select>
 
 
-            <div class="userInfo">
-                <div class="namerequest">
-                    <div id="divLabelName"><label id="name-label">Nombre: </label></div>
-                    <input type="text" name="" id="name" required placeholder="Introduce tu nombre">
+            <div class="userInfo"><!-- casillas de informacion -->
+                <div class="nameRequest">
+                    <div id="divLabelName"><label id="name-label">Name: </label></div>
+                    <input type="text" name="" id="name" required placeholder="Write your Best Name">
                 </div>
                 <div class="emailRequest">
                     <div id="divLabelEmail"><label id="email-label">Email: </label></div>
-                    <input type="email" name="" id="email" required placeholder="Introduce tu email"> <!---->
+                    <input type="email" name="" id="email" required placeholder="Email"> <!---->
                 </div>
                 <div class="numberRequest">
-                    <label id="number-label">Numero: </label>
-                    <input type="number" name="" id="number" required min="4" max="15" placeholder="Introduce tu numero">
+                    <div id="divLabelNumber"><label id="number-label">Number: </label></div>
+                    <input type="number" name="" id="number" required min="4" max="15" placeholder="Number">
                 </div>
             </div>
 
 
             <label id="botones">
-                <input type="radio" name="boton1-boton2" value="indoor">Boton1 <!-- -->
-                <input type="radio" name="boton1-boton2" value="indoor">Boton2 <!-- -->
+                <input type="radio" name="juegoDeBotones" value="indoor">step1 <!--preguntar: porque al pulsar sobre la palabra no se marca el boton -->
+                <input type="radio" name="juegoDeBotones" value="indoor">step2 <!-- -->
+                <input type="radio" name="juegoDeBotones" value="indoor">step3 <!-- -->
+                <input type="radio" name="juegoDeBotones" value="indoor">step4 <!-- -->
             </label>
 
-            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 1</label>
-            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 2</label>
-            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 3</label>
-            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> casilla 4</label>
-            <input type="text" placeholder="Puesdes ecribir aqui">
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> old school</label>
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> traditional</label>
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> black and grey</label>
+            <label for="casillas"><input id="casillas" type="checkbox" name="peronality" value="marcar"> realist</label>
+            <input type="text" placeholder="You can write here">
             
             <div classs="campoTexto">
-            <textarea name="mensaje" placeholder="Llena esta este campo" cols="40" rows="5"></textarea>
+            <textarea name="mensaje" placeholder="Send us your comment" cols="40" rows="5"></textarea>
             </div>
 
-            <button type="submit" id="submit">Enviar</button>
+            <button type="submit" id="submit">Send</button>
         </div>
     </form>
     <script src="test.js"></script>
