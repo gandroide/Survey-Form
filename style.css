@@ -4,37 +4,46 @@ html, body {
 }
 
 .userInfo {
-    font-family: 'Roboto';
+    font-family: 'Baloo Thambi 2', cursive;
     display: flex;
     flex-direction: column;
 }
 
+.titulo {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
 .nameRequest {
     display: flex;
-    font-family: 'Roboto';
+    font-family: 'Baloo Thambi 2', cursive;
     flex-direction: column;
 }
-.nameRequest > div {
-    /*aun no le asigno nada porque no veo como hacerla responsive*/
+#name, #email, #number {
+    font-family: 'Baloo Thambi 2', cursive;
 }
+/*
+.nameRequest > div {
+    "aun no le asigno nada porque no veo como hacerla responsive"
+}
+*/
 .nameRequest input {
     width: 75%;
 }
 .emailRequest {
     display: flex;
-    font-family: 'Roboto';
+    font-family: 'Baloo Thambi 2', cursive;
     flex-direction: column;
 }
 .emailRequest > div {
     width: 25%;
 }
-.emailRequest > input { /*aun se puede hacer con los div :( */
+.emailRequest > input {
     width: 75%;
 }
 
 .numberRequest {
     display: flex;
-    font-family: 'Roboto';
+    font-family: 'Baloo Thambi 2', cursive;
     flex-direction: column;
 }
 
@@ -64,9 +73,11 @@ html, body {
     margin: 10px;
 }
 
+/*
 #izquierda {
-/*este es el contenedor de la imagen*/
+este es el contenedor de la imagen
 }
+*/
 
 #image {
     width: 100%;
@@ -75,17 +86,27 @@ html, body {
 #dropdown {
     width: 20%;
     align-self: flex-start;
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 #botones {
     display: flex;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+#categorias {
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 .campoTexto {
     display: flex;
+    font-family: 'Baloo Thambi 2', cursive;
     /*resize: horizontal;
     min-height: 60px;
     max-height: 300px; nada de esto funciona para cambiar el tamano*/
+}
+
+#submit, #otros {
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 @media screen and (min-width: 780px) and (max-width: 1024px){
