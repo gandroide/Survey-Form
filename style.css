@@ -1,25 +1,28 @@
 html, body {
-    background-color: #CEDADA;
+    background-color: #2E282A;
     margin: 50px;
+    display: flex;
+    align-content: stretch;
+    /*aun no funciona*/
 }
 
 .userInfo {
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
 }
 
 .titulo {
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .nameRequest {
     display: flex;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
     flex-direction: column;
 }
 #name, #email, #number {
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
 }
 /*
 .nameRequest > div {
@@ -31,7 +34,7 @@ html, body {
 }
 .emailRequest {
     display: flex;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
     flex-direction: column;
 }
 .emailRequest > div {
@@ -43,7 +46,7 @@ html, body {
 
 .numberRequest {
     display: flex;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
     flex-direction: column;
 }
 
@@ -57,7 +60,7 @@ html, body {
 
 #survey-form {
     padding: 10px;
-    border: 5px solid black;
+    border: 5px solid #FCBA04;
     border-radius: 5%;
     display: flex;
     max-width: 50%; /*este es mi contenedor flexible*/
@@ -86,37 +89,76 @@ este es el contenedor de la imagen
 #dropdown {
     width: 20%;
     align-self: flex-start;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 #botones {
     display: flex;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
 }
 #categorias {
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .campoTexto {
     display: flex;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
     /*resize: horizontal;
     min-height: 60px;
     max-height: 300px; nada de esto funciona para cambiar el tamano*/
 }
 
 #submit, #otros {
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'Playfair Display', serif;
 }
+
+#informacion {
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 @media screen and (min-width: 780px) and (max-width: 1024px){
 
 }
 
 @media screen and (min-width: 480px) and (max-width: 780px){
-    
+    #image {
+        display: none;
+    }
+    #survey-form {
+        max-width: 100%;
+    }
+    #derecha {
+        width: 100%;
+    }
+    #botones {
+        display: flex;
+        flex-direction: column;
+    }
+    #categorias {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 480px){
-    
+    #image {
+        display: none;
+    }
+    #survey-form {
+        max-width: 100%;
+    }
+    #derecha {
+        width: 100%;
+    }
+    #botones {
+        display: flex;
+        flex-direction: column;
+    }
+    #categorias {
+        display: flex;
+        flex-direction: column;
+    }
 }
