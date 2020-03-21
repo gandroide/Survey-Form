@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="todo">
+    <main id="todo">
         <div id="descripcion">
-            <p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dicta non ex consectetur necessitatibus ullam aliquid sapiente inventore provident molestiae voluptatem obcaecati vitae neque reprehenderit sed, assumenda iusto, excepturi iure? Vitae, delectus! Nam veritatis sequi ipsam soluta, magnam libero tenetur repellat earum dolorum ratione fuga, vitae porro, eos ipsum sit nemo architecto ad perspiciatis expedita unde quisquam doloremque natus! Quas, quo? Quis nisi, dolorem tenetur vel vero perferendis suscipit! Reiciendis iusto doloremque voluptatem nemo? Saepe laudantium, deleniti nostrum veritatis consequuntur dicta vitae aliquid optio aspernatur fuga consequatur rerum ea corrupti aliquam. Iste deleniti consectetur voluptate adipisci numquam! Repellat, consequuntur vero.</p>
+            <h1 id="title" style="color: white;">I Want To Tattoo</h1>
+            <p style="color: white;">Welcome to the tattoo gallery. Here you can find the best tattoo artist jobs around the world. Are you looking for the perfect tattoo for you? Or do you just want to appreciate the art of the best tattoo artists in the world? You are in the right place. You just have to subscribe to contact us.</p>
         </div>
         <div id="informacion">
-            <div class="titulo">
-                <h1 id="title" style="color: white;">I Want To Tattoo</h1>
-                <p id="description" style="color: white;">Tattoo Appointment</p>
+            <div class="titulo"><!--que es esto?-->
+                <h2 id="description" style="color: white;">Tattoo Appointment</h2>
             </div>
 
             <form id="survey-form">
@@ -47,19 +47,27 @@
                     </div>
 
 
-                    <label id="botones" style="color: white;">
-                        <input type="radio" name="juegoDeBotones" value="indoor">step1
-                        <input type="radio" name="juegoDeBotones" value="indoor">step2 
-                        <input type="radio" name="juegoDeBotones" value="indoor">step3 
-                        <input type="radio" name="juegoDeBotones" value="indoor">step4 
-                    </label>
-                    <div id="categorias" style="color: white;">
-                        <label for="casilla1"><input id="casilla1" type="checkbox" name="peronality" value="marcar"> old school</label>
-                        <label for="casilla2"><input id="casilla2" type="checkbox" name="peronality" value="marcar"> traditional</label>
-                        <label for="casilla3"><input id="casilla3" type="checkbox" name="peronality" value="marcar"> black and grey</label>
-                        <label for="casilla4"><input id="casilla4" type="checkbox" name="peronality" value="marcar"> realist</label>
-                        <input type="text" id="otros"placeholder="You can write here">
+                    <div id="botones" style="color: white;">
+                        <div id="combo1">
+                            <label><input type="radio" name="juegoDeBotones" value="indoor">step1</label>
+                            <label><input type="radio" name="juegoDeBotones" value="indoor">step2</label>
+                        </div>
+                        <div id="combo2">
+                            <label><input type="radio" name="juegoDeBotones" value="indoor">step3</label>
+                            <label><input type="radio" name="juegoDeBotones" value="indoor">step4</label>
+                        </div>
                     </div>
+                    <div id="categorias" style="color: white;">
+                        <div id="bloque1">
+                            <label for="casilla1"><input id="casilla1" type="checkbox" name="peronality" value="marcar"> old school</label>
+                            <label for="casilla2"><input id="casilla2" type="checkbox" name="peronality" value="marcar"> traditional</label>
+                        </div>
+                        <div id="bloque2">
+                            <label for="casilla3"><input id="casilla3" type="checkbox" name="peronality" value="marcar"> black and grey</label>
+                            <label for="casilla4"><input id="casilla4" type="checkbox" name="peronality" value="marcar"> realist</label>
+                        </div>
+                    </div>
+                    <input type="text" id="otros"placeholder="You can write here">
                     <div classs="campoTexto">
                     <textarea name="mensaje" placeholder="Send us your comment" cols="40" rows="5"></textarea>
                     </div>
@@ -68,7 +76,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </main>
     <script src="test.js"></script>
 
 </body>
