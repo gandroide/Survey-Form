@@ -4,7 +4,8 @@ html, body {
     display: flex;
     align-content: stretch;
     /*aun no funciona*/
-    font-family: 'Playfair Display', serif;
+    font-family: 'Amita', cursive;
+    color: white;
 }
 
 .userInfo {
@@ -93,6 +94,9 @@ este es el contenedor de la imagen
     max-height: 300px; nada de esto funciona para cambiar el tamano*/
 }
 
+#area {
+    max-width: 300px;
+}
 
 #informacion, #descripcion {
     display: flex;
@@ -104,12 +108,13 @@ este es el contenedor de la imagen
 #descripcion p{
     text-align: justify;
     width: 50%;
+    font-size: 1.2rem;
 }
 
 #informacion {
     display: flex;
     width: 50%;
-    padding: 10px;
+    padding: 0px;
 }
 
 #todo {
@@ -121,44 +126,78 @@ este es el contenedor de la imagen
 #otros, #submit {
     width: 50%;
 }
+#area {
+    width: 30em;
+}
 
-@media screen and (min-width: 780px) and (max-width: 1024px){
-    #image {
-        display: none;
-    }
-    #survey-form {
-        max-width: 100%;
-    }
-    #derecha {
-        width: 100%;
-    }
-    #botones {
-        display: flex;
-        flex-direction: column;
-    }
-    #categorias {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    #todo {
-        display: flex;
-        flex-direction: column;
-    }
-    #informacion, #descripcion {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-content: stretch;
-    }
-    #descripcion p {
-        text-align: justify;
-        width: 100%;
+
+@media screen and (min-width: 840px) and (max-width: 1450px){
+    #area {
+        width: 20em;
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 780px){
-    #image {
+@media screen and (min-width: 840px) and (max-width: 1350px){
+
+    html {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-left: 2px;
+        padding-right: 10px;
+    }
+
+    #survey-form {
+        max-width: 100%;
+    }
+    #derecha {
+        width: 100%;
+    }
+    #botones {
+        display: flex;
+        flex-direction: column;
+    }
+    #categorias {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #todo {
+        display: flex;
+        flex-direction: column;
+    }
+    #informacion, #descripcion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: stretch;
+    }
+    #descripcion p {
+        text-align: justify;
+        width: 100%;
+    }
+    #area {
+        width: 25em;
+    }
+    
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+
+    html {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-left: 2px;
+        padding-right: 10px;
+    }
+    #izquierda {
         display: none;
     }
     #survey-form {
@@ -189,12 +228,76 @@ este es el contenedor de la imagen
     #descripcion p {
         text-align: justify;
         width: 100%;
+    }
+    #area {
+        width: 30em;
+    }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+    html {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-left: 2px;
+        padding-right: 10px;
+    }
+    #izquierda {
+        display: none;
+    }
+    #survey-form {
+        max-width: 100%;
+    }
+    #derecha {
+        width: 100%;
+    }
+    #botones {
+        display: flex;
+        flex-direction: column;
+    }
+    #categorias {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #todo {
+        display: flex;
+        flex-direction: column;
+    }
+    #informacion, #descripcion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: stretch;
+    }
+    #descripcion p {
+        text-align: justify;
+        width: 100%;
+    }
+    #area {
+        width: 20em;
     }
 
 }
 
 @media screen and (max-width: 480px){
-    #image {
+
+    html {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-left: 2px;
+        padding-right: 10px;
+    }
+    #izquierda {
         display: none;
     }
     #survey-form {
@@ -225,6 +328,9 @@ este es el contenedor de la imagen
     #descripcion p {
         text-align: justify;
         width: 100%;
+    }
+    #area {
+        width: 20em;
     }
 
 }

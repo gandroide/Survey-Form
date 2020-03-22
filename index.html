@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey Form</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amita&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main id="todo">
         <div id="descripcion">
-            <h1 id="title" style="color: white;">I Want To Tattoo</h1>
-            <p style="color: white;">Welcome to the tattoo gallery. Here you can find the best tattoo artist jobs around the world. Are you looking for the perfect tattoo for you? Or do you just want to appreciate the art of the best tattoo artists in the world? You are in the right place. You just have to subscribe to contact us.</p>
+            <h1 id="title">I Want To Tattoo</h1>
+            <p>Welcome to the tattoo gallery. Here you can find the best tattoo artist jobs around the world. Are you looking for the perfect tattoo for you? Or do you just want to appreciate the art of the best tattoo artists in the world? You are in the right place. You just have to subscribe to contact us.</p>
         </div>
         <div id="informacion">
             <div class="titulo"><!--que es esto?-->
-                <h2 id="description" style="color: white;">Tattoo Appointment</h2>
+                <h2 id="description">Tattoo Appointment</h2>
             </div>
 
             <form id="survey-form">
@@ -33,21 +33,21 @@
 
                     <div class="userInfo"><!-- casillas de informacion del usuario-->
                         <div class="nameRequest">
-                            <div id="divLabelName"><label id="name-label" style="color: white;">Name: </label></div>
+                            <div id="divLabelName"><label id="name-label">Name: </label></div>
                             <input type="text" name="" id="name" required placeholder="Write your Best Name">
                         </div>
                         <div class="emailRequest">
-                            <div id="divLabelEmail"><label id="email-label" style="color: white;">Email: </label></div>
+                            <div id="divLabelEmail"><label id="email-label">Email: </label></div>
                             <input type="email" name="" id="email" required placeholder="Email">
                         </div>
                         <div class="numberRequest">
-                            <div id="divLabelNumber"><label id="number-label" style="color: white;">Number: </label></div>
+                            <div id="divLabelNumber"><label id="number-label">Number: </label></div>
                             <input type="number" name="" id="number" required min="4" max="15" placeholder="Number">
                         </div>
                     </div>
 
 
-                    <div id="botones" style="color: white;">
+                    <div id="botones">
                         <div id="combo1">
                             <label><input type="radio" name="juegoDeBotones" value="indoor">step1</label>
                             <label><input type="radio" name="juegoDeBotones" value="indoor">step2</label>
@@ -57,7 +57,7 @@
                             <label><input type="radio" name="juegoDeBotones" value="indoor">step4</label>
                         </div>
                     </div>
-                    <div id="categorias" style="color: white;">
+                    <div id="categorias">
                         <div id="bloque1">
                             <label for="casilla1"><input id="casilla1" type="checkbox" name="peronality" value="marcar"> old school</label>
                             <label for="casilla2"><input id="casilla2" type="checkbox" name="peronality" value="marcar"> traditional</label>
@@ -69,7 +69,7 @@
                     </div>
                     <input type="text" id="otros"placeholder="You can write here">
                     <div classs="campoTexto">
-                    <textarea name="mensaje" placeholder="Send us your comment" cols="40" rows="5"></textarea>
+                    <textarea id="area"name="mensaje" placeholder="Send us your comment" cols="40" rows="5"></textarea>
                     </div>
 
                     <button type="submit" id="submit">Send</button>
