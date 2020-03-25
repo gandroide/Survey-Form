@@ -98,14 +98,14 @@ este es el contenedor de la imagen
     max-width: 300px;
 }
 
-#informacion, #descripcion {
+#informacion, #quienesSomos {
     display: flex;
     flex-direction: column;
     width: 50%;
     align-content: stretch;
 }
 
-#descripcion p{
+#quienesSomos p{
     text-align: justify;
     width: 50%;
     font-size: 1.2rem;
