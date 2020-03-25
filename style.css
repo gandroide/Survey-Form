@@ -105,7 +105,7 @@ este es el contenedor de la imagen
     align-content: stretch;
 }
 
-#quienesSomos p{
+#description {
     text-align: justify;
     width: 50%;
     font-size: 1.2rem;
@@ -169,13 +169,13 @@ este es el contenedor de la imagen
         display: flex;
         flex-direction: column;
     }
-    #informacion, #descripcion {
+    #informacion, #quienesSomos {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-content: stretch;
     }
-    #descripcion p {
+    #description {
         text-align: justify;
         width: 100%;
     }
@@ -219,13 +219,13 @@ este es el contenedor de la imagen
         display: flex;
         flex-direction: column;
     }
-    #informacion, #descripcion {
+    #informacion, #quienesSomos {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-content: stretch;
     }
-    #descripcion p {
+    #description {
         text-align: justify;
         width: 100%;
     }
@@ -269,13 +269,13 @@ este es el contenedor de la imagen
         display: flex;
         flex-direction: column;
     }
-    #informacion, #descripcion {
+    #informacion, #quienesSomos {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-content: stretch;
     }
-    #descripcion p {
+    #description {
         text-align: justify;
         width: 100%;
     }
@@ -319,13 +319,13 @@ este es el contenedor de la imagen
         display: flex;
         flex-direction: column;
     }
-    #informacion, #descripcion {
+    #informacion, #quienesSomos {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-content: stretch;
     }
-    #descripcion p {
+    #description {
         text-align: justify;
         width: 100%;
     }
